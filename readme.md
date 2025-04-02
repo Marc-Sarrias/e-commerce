@@ -4,38 +4,30 @@
 
 ## Características
 
-- **Exploración y búsqueda**: Los usuarios pueden navegar por el catálogo y buscar libros por título o autor.&#8203;:contentReference[oaicite:2]{index=2}
-- **Detalles del producto**: :contentReference[oaicite:3]{index=3}&#8203;:contentReference[oaicite:4]{index=4}
-- **Carrito de compras**: :contentReference[oaicite:5]{index=5}&#8203;:contentReference[oaicite:6]{index=6}
-- **Gestión de usuarios**: :contentReference[oaicite:7]{index=7}&#8203;:contentReference[oaicite:8]{index=8}
+- **Exploración y búsqueda**: Los usuarios pueden navegar por el catálogo y buscar libros por título.
+- **Detalles del producto**: Cada libro cuenta con una página de detalles que incluye descripción, precio y otra información relevante.
+- **Carrito de compras**: Funcionalidad para agregar libros al carrito y proceder al proceso de compra.
+- **Gestión de usuarios**: Registro e inicio de sesión de usuarios para gestionar perfiles y realizar seguimientos de sus compras.
 
 ## Estructura del Proyecto
 
-El proyecto sigue una arquitectura MVC (Modelo-Vista-Controlador) y está organizado en los siguientes directorios:
+El proyecto sigue una arquitectura basada en MVC (Modelo-Vista-Controlador) y está organizado en los siguientes directorios:
 
-- **controlador**: :contentReference[oaicite:9]{index=9}&#8203;:contentReference[oaicite:10]{index=10}
-- **modelo**: :contentReference[oaicite:11]{index=11}&#8203;:contentReference[oaicite:12]{index=12}
-- **vista**: :contentReference[oaicite:13]{index=13}&#8203;:contentReference[oaicite:14]{index=14}
-- **imagenes**: :contentReference[oaicite:15]{index=15}&#8203;:contentReference[oaicite:16]{index=16}
-- **js**: :contentReference[oaicite:17]{index=17}&#8203;:contentReference[oaicite:18]{index=18}
-- **uploadedFiles**: :contentReference[oaicite:19]{index=19}&#8203;:contentReference[oaicite:20]{index=20}
+- **controlador**: Contiene los scripts PHP que manejan la lógica de negocio y las interacciones del usuario.
+- **modelo**: Incluye las clases y scripts relacionados con la gestión de datos y consultas a la base de datos.
+- **vista**: Contiene las plantillas y archivos que gestionan la presentación y la interfaz de usuario.
+- **imagenes**: Almacena las imágenes utilizadas en el sitio web, como portadas de libros y otros recursos gráficos.
+- **js**: Incluye archivos JavaScript para funcionalidades dinámicas en el frontend.
 
 ## Archivos Principales
 
-- **index.php**: :contentReference[oaicite:21]{index=21}&#8203;:contentReference[oaicite:22]{index=22}
-- **info.html**: :contentReference[oaicite:23]{index=23}&#8203;:contentReference[oaicite:24]{index=24}
-- **resource_*.php**: :contentReference[oaicite:25]{index=25}&#8203;:contentReference[oaicite:26]{index=26}
+- **index.php**: Archivo principal que sirve como punto de entrada al sitio web.
+- **info.html**: Página con información adicional sobre la tienda o el proyecto.
+- **resource_*.php**: Varios archivos que manejan recursos específicos, como el carrito de compras, categorías, búsquedas, pedidos, información de productos, inicio y cierre de sesión, perfil de usuario, productos y registro.
 
 ## Tecnologías Utilizadas
 
-- **PHP**: :contentReference[oaicite:27]{index=27}&#8203;:contentReference[oaicite:28]{index=28}
-- **HTML5 y CSS3**: :contentReference[oaicite:29]{index=29}&#8203;:contentReference[oaicite:30]{index=30}
-- **JavaScript**: :contentReference[oaicite:31]{index=31}&#8203;:contentReference[oaicite:32]{index=32}
-- **SQL**: :contentReference[oaicite:33]{index=33}&#8203;:contentReference[oaicite:34]{index=34}
-
-## Instalación y Configuración
-
-1. **Clonar el repositorio**:
-
-   ```bash
-   git clone https://github.com/Marc-Sarrias/e-commerce.git
+- **PHP**: Lenguaje principal para la lógica del servidor y la generación de contenido dinámico.
+- **HTML5 y CSS3**: Para la estructura y el diseño de las páginas web.
+- **JavaScript**: Para funcionalidades interactivas y dinámicas en el frontend.
+- **SQL**: Para la gestión y consulta de la base de datos.
