@@ -1,0 +1,190 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.header {
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 22px;
+    color: #2a0099;
+    margin: 0;
+}
+
+.menu {
+    position: relative; /* Necesario para el posicionamiento del menú desplegable */
+}
+
+.cart-image {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.account-image {
+    width: 25px;
+    height: 35px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-top: -4px;
+}
+
+.user-cart {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.account-image:hover {
+    transform: scale(1.1);
+}
+
+.logo-image {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+/* Menú desplegable del usuario */
+.dropdown {
+    display: none; /* El desplegable está oculto por defecto */
+    position: absolute;
+    right: 0;
+    top: 50px; /* Ajusta la distancia desde la imagen */
+    background-color: white;
+    border: 1px solid #999;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    min-width: 150px;
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.dropdown a:hover {
+    background-color: #f0f0f0;
+}
+
+/* Asegurar que el menú no se salga del contenedor */
+.menu {
+    position: relative;
+}
+
+/* Categorías */
+.categories {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.category {
+    flex: 1;
+    text-align: center;
+}
+
+.category-link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.category-link:hover {
+    background-color: #eeae61;
+}
+
+.no-category-message {
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 40px;
+}
+
+.image-overlay {
+    position: relative;
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.top-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.overlay-text h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.overlay-text p {
+    font-size: 1em;
+    margin: 5px 0 0;
+}
+
+.second-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.item {
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+

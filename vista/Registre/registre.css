@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.logo-image {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 22px;
+    color: #2a0099;
+    margin: 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+form {
+    background-color: #f4c8a1 ;
+    width: 30%;
+    padding: 20px; 
+    margin: 0 auto; 
+    text-align: left; 
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+label {
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+
+input {
+    border-radius: 5px;
+    width: 35%; 
+    border: 1px solid black;
+}
+
+input[type="submit"] {
+    width: auto; 
+    padding: 10px 15px; 
+    background-color: #dba87c;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #c18d5f; 
+}
+
+h3, p {
+    color: #2c3e50;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
+    grid-auto-rows: 1fr; /* Todas las filas tendrán la misma altura */
+    gap: 20px; /* Espacio entre los elementos */
+    justify-items: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente dentro de cada celda */
+    margin-top: 50px; /* Espacio arriba del grid */
+}
+
+.grid-item {
+    display: flex; /* Permite usar flexbox para los contenidos internos */
+    flex-direction: column; /* Asegura que los elementos internos estén en columna */
+    align-items: center; /* Centra los elementos dentro de cada celda */
+    justify-content: space-between; /* Distribuye espacio entre los elementos (imagen y texto) */
+    list-style-type: none; /* Elimina los puntos o viñetas */
+}
+
+.foto-producto {
+    width: 160px; /* Establece el tamaño fijo de la imagen */
+    height: 210px; /* Establece la altura fija de la imagen */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nombre-producto {
+    margin-bottom: -10px; /* Espacio entre el nombre y el precio */
+    text-align: center; /* Centra el texto */
+}
+
